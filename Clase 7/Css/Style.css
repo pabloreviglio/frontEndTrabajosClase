@@ -1,0 +1,7 @@
+header{background-color: lightgray;text-align: center;}
+h1{color:darkslategrey; background-color: gray ;text-align: center;text-size-adjust: 25p;font-family:'Times New Roman', Times, serif;}
+h3{color:darkslategrey; background-color: gray ;text-align: left;text-size-adjust: 25p;font-family:'Times New Roman', Times, serif;}
+ul{color:black; background-color: white ;text-align: left;text-size-adjust: 10p;font-weight:100;font-family:Arial, Helvetica, sans-serif;}
+li{color:black; background-color: white ;text-align: left;text-size-adjust: 5p;font-family:Arial, Helvetica, sans-serif;font-style: italic;}
+p{color:black; background-color: white ;text-align: left;text-size-adjust: 15p;font-weight:bold;font-family:'Times New Roman', Times, serif;}
+footer{color:white; background-color:darkslategrey ;text-align: center; font-family:'Times New Roman', Times, serif;}
