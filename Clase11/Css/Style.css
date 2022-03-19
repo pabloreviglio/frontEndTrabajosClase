@@ -1,137 +1,137 @@
-            html,
-            body,
-            main {
-                height: 100%;
-                width: 100%;
-            }
-            
-            main {
-                display: flex;
-                flex-direction: column;
-                background-color: #EEEEEE;
-                width: auto;
-                align-items: center;
-                align-content: center;
-                justify-content: space-between;
-            }
-            
-            header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background: #222222;
-                width: 1920px;
-                height: 100px;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-            
-            .top {
-                font-family: Arial, Helvetica, sans-serif;
-                font-style: normal;
-                color: whitesmoke;
-                font-size: 16px;
-                line-height: 18.75px;
-                text-decoration: none;
-                margin-right: 50px;
-            }
-            
-            .logo {
-                margin-left: 15px;
-            }
-            
-            .contenedorFlex {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .box1 {
-                display: flex;
-                width: 490px;
-                height: 350px;
-                background-image: url('../img/delivery.jpg');
-                border-radius: 5px;
-            }
-            
-            .col1Titl1 {
-                display: flex;
-                color: red;
-                margin-right: 10px;
-            }
-            
-            .col2Titl2 {
-                display: flex;
-                color: white;
-                justify-content: space;
-                margin-right: 10px;
-            }
-            
-            .h2text {
-                position: relative;
-            }
-            
-            .box2 {
-                display: flex;
-                flex-direction: column;
-                position: relative;
-                background-color: white;
-                border-radius: 5px;
-                background-repeat: no-repeat;
-                margin-left: 5px;
-                width: 490px;
-                height: 350px;
-                text-align: center;
-                justify-items: normal;
-            }
-            
-            .box22 {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-            }
-            
-            .imgDiv2 {
-                width: 92px;
-                height: 129px;
-                margin-right: 10px;
-            }
-            
-            .title {
-                text-align: left;
-                font-size: 20px;
-                font-weight: bold;
-            }
-            
-            .listBox2 {
-                font-size: 20px;
-                font-weight: bold;
-                list-style-position: outside;
-                text-align: left;
-            }
-            
-            .footer {
-                align-items: center;
-                background: #222222;
-                display: flex;
-                justify-content: space-between;
-                width: 1920px;
-                height: 150px;
-                margin-right: 50px;
-            }
-            
-            .logo1 {
-                margin-right: 50px;
-            }
-            
-            .listBotom {
-                font-family: Arial, Helvetica, sans-serif;
-                font-style: normal;
-                color: whitesmoke;
-                font-size: 16px;
-                line-height: 18.75px;
-                text-decoration: none;
-                margin-right: 20px;
-                list-style-type: none;
-                list-style-position: calc(150px);
-            }
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+    width: 1920px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.contenedorFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    width: 490px;
+    height: 350px;
+    background-image: url('../img/delivery.jpg');
+    border-radius: 5px;
+}
+
+.col1Titl1 {
+    display: flex;
+    color: red;
+    margin-right: 10px;
+}
+
+.col2Titl2 {
+    display: flex;
+    color: white;
+    justify-content: space;
+    margin-right: 10px;
+}
+
+.h2text {
+    position: relative;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    width: 490px;
+    height: 350px;
+    text-align: center;
+    justify-items: normal;
+}
+
+.box22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgDiv2 {
+    width: 92px;
+    height: 129px;
+    margin-right: 10px;
+}
+
+.title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.listBox2 {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-position: outside;
+    text-align: left;
+}
+
+.footer {
+    align-items: center;
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.logo1 {
+    margin-right: 50px;
+}
+
+.listBotom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+    margin-right: 20px;
+    list-style-type: none;
+    list-style-position: calc(150px);
+}

@@ -1,126 +1,78 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-html, body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-min-width: 100vw;
-min-height: 100vh;
-overflow: hidden;
-}
-header {
-padding: 10px 0;
-display: flex;
-position: sticky;
-background-color: #393939;
-justify-content: space-between;
-align-items: center;
-}
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <title>HEROES</title>
+</head>
 
-picture {
-padding: 10px;
-display: flex;
-align-items: center;
-gap: 1rem;
-color: #ffffff;
-}
+<body>
+    <header>
+        <h4>Descuentos 20%</h4>
+    </header>
 
-.title {
-font-size: 28px;
-}
-.title .pizza {
-color: red;
-}
+    <nav>
+        <h1>Heroes</h1>
+    </nav>
+    <main>
+        <!-- Cards -->
+        <div class="contendor-cards">
+            <div class="card">
+                <div class='imgCard'>
+                    <img src="./img/fondo batman.png" class="card-img-top" alt="..." />
+                    <img src="./img/batman.png" class="card-img-circle1" alt="" />
+                    <img src="./img/like.png" class="card-img-like" alt="" />
+                </div>
 
-.title .front {
-color: green;
-}
+                <div class="card-body">
+                    <h1 class="card-title">BATMAN</h1>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+                <button>Ver más</button>
+            </div>
 
-nav ul {
-list-style: none;
-display: flex;
-width: 40vw;
-justify-content: space-around;
-}
-nav ul li {
-float: left;
-}
+            <div class="card">
+                <div class='imgCard'>
+                    <img src="./img/HarleyQinnfondo.png" class="card-img-top" alt="..." />
+                    <img src="./img/HarleyQuinn.png" class="card-img-circle2" alt="" />
+                    <img src="./img/like.png" class="card-img-like" alt="" />
+                </div>
 
-.item-list {
-text-decoration: none;
-color: #fff;
-}
-/* sadsadsad*/
+                <div class="card-body">
+                    <h1 class="card-title">Harley Quinn</h1>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+                <button>Ver más</button>
+            </div>
 
-#main {
-display: flex;
-height: 60vh;
-}
+            <div class="card">
+                <div class='imgCard'>
+                    <img src="./img/fondo batman.png" class="card-img-top" alt="..." />
+                    <img src="./img/batman.png" class="card-img-circle" alt="" />
+                    <img src="./img/like.png" class="card-img-like" alt="" />
+                </div>
 
+                <div class="card-body">
+                    <h1 class="card-title">BATMAN</h1>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+                <button>Ver más</button>
+            </div>
+        </div>
+    </main>
 
-#delivery {
-width: 50%;
-background-image: url("./img/delivery.jpg");
-background-position: center;
-background-size: cover;
-padding: 20px;
-}
+    <footer>
+        <div>&copy; Todos los derechos reservados - Front End 1</div>
+    </footer>
+</body>
 
-.ad {
-padding: 10px 12px;
-background-color: #ff3243;
-color: #ffffff;
-border-radius: 0 0 0 8px;
-display: inline;
-letter-spacing: 2px;
-}
-
-#menu {
-padding: 30px;
-width: 50%;
-position: relative;
-}
-
-h2{
-text-align: center;
-}
-
-#menu img {
-position: absolute;
-right: 10px;
-bottom: 10px;
-}
-
-article {
-padding: 50px;
-}
-
-article h3 {
-font-size: 32px;
-}
-
-ol {
-padding: 20px;
-font-weight: bold;
-}
-
-ol li {
-margin: 10px 0;
-}
-/*footer */
-footer {
-display: flex;
-background-color: #393939;
-padding: 22px;
-justify-content: space-between;
-}
-
-footer ul {
-display: flex;
-list-style: none;
-flex-direction: column;
-gap: 22px;
-}
-
+</html>
