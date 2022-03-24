@@ -1,0 +1,204 @@
+    html,
+    body {
+        box-sizing: border-box;
+        font-family: Inter, Karla, Roboto;
+        width: 1440px;
+    }
+    
+    header {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        width: 1440px;
+    }
+    
+    .tittle1 {
+        display: flex;
+        align-items: center;
+        background: #1CD1B0;
+        color: black;
+        height: 23px;
+        font-size: 15px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .tittle2 {
+        display: flex;
+        background: #00669F;
+        color: white;
+        height: 81px;
+        font-size: 30px;
+        text-align: justify;
+        height: 81px;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        background: #001D2D;
+        max-width: 100%;
+        height: 40px;
+    }
+    
+    .tittle3 {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        width: 251px;
+        line-height: 19px;
+        font-size: 16Px;
+        text-align: right;
+        margin-right: 30px;
+    }
+    
+    .contenedorFlex {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        background: #00669F;
+        color: white;
+        width: 954px;
+        margin-left: 243px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border-radius: 49.09px;
+        padding: 18px124;
+        font-family: Inter;
+        font-style: normal;
+        line-height: 10px;
+        padding: 18px;
+    }
+    
+    h1 {
+        line-height: 0px;
+    }
+    
+    .formulario {
+        display: flex;
+    }
+    
+    .field {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: nowrap;
+        margin-left: 15px;
+    }
+    
+    .entrada {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+    }
+    
+    .entrada1 {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: 65px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .entrada2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 267px;
+    }
+    
+    .label-especial {
+        height: 20px;
+    }
+    
+    .redondeado {
+        border-radius: 15.34px;
+        height: 63px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #00000080;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .redondeado1 {
+        border-radius: 15.34px;
+        height: 267px;
+        margin-top: 10px;
+        color: #00000080;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .sub {
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    
+    .label-especial {
+        font-family: Karla;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .selArchivo::-webkit-file-upload-button {
+        visibility: hidden;
+    }
+    
+    .selArchivo::before {
+        content: 'Seleccione Archivo';
+        display: inline-block;
+        background: #CECECE;
+        color: black;
+        border-radius: 5px;
+        padding: 8px;
+        padding-right: 70px;
+    }
+    
+    .boton {
+        display: flex;
+        background: #1CD1B0;
+        color: black;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        border-radius: 23px;
+        padding: 21px 167px;
+        margin-top: 45px;
+    }
+    
+    footer {
+        display: flex;
+        background: #00669F;
+        color: white;
+        height: 61px;
+        font-size: 16px;
+        line-height: 18.75px;
+        align-items: center;
+        justify-content: center;
+    }
