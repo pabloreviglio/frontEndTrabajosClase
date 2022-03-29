@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCtandDog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Karla&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<!--el atributo for del label debe coincidir con el atributo id de los inputs-->
+<!--el atributo name del input debe estar para que el valor introducido en ese input sea enviado-->
+
+<body>
+    <div class="container">
+        <header>
+            <div class="tittle1">
+                <a>20% de descuento en todos los productos!</a>
+            </div>
+            <div class="tittle2">
+                <img src="img/logo.png" alt="imgTienda " class="imgTienda ">
+                <h3>Nombre Tienda</h3>
+            </div>
+            <nav>
+                <div class="tittle3">
+                    <a>Contacto</a>
+                    <a>Registrarme</a>
+                    <a>Ingresar</a>
+                </div>
+            </nav>
+        </header>
+
+        <form class="formulario" action="" method="post">
+            <div class="contenedorFlex">
+                <h1>Añadí tu super!</h1>
+                <p><span>Agrega tu personaje favorito completando las opciones</span></p>
+
+                <form action="/registro" method="Post">
+
+                    <div class="formulario">
+                        <div class="field">
+                            <div class="entrada">
+                                <!--for debe coincidir con id-->
+                                <label for="nombre">*Nombre</label>
+                                <input type="text" class="redondeado" name="nombreSuper" id="nombre" placeholder="" required>
+                            </div>
+                            <div class="entrada">
+                                <label for="fecha">Fecha</label>
+                                <input type="date" class="redondeado" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+                            </div>
+                            <div class="entrada">
+                                <textarea name="descripcion" id="descripcion" class="redondeado1" placeholder="Descripcion"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="entrada">
+                                <label for="especie">*Especie</label>
+                                <select name="especie" class="redondeado" id="especie " placeholder="Especie">
+                                        <option value="tierra">Terrestre</option>
+                                        <option value="agua">Acuatico</option>
+                                        <option value="aire">Voladores</option>
+                                        <option value="extraterrestres">Espaciales</option>
+                                    </select>
+                            </div>
+                            <div class="entrada1">
+                                <label for="archivo">Agregar Foto</label>
+                                <input type="file" class="selArchivo" name="archivo" id="archivo" placeholder="Seleccionar archivo">
+                            </div>
+                            <!-- No lleva label  -->
+                            <div class="entrada2">
+
+                                <legend class="sub">Poderes</legend>
+                                <span>
+                                    <input type="checkbox" id="volar" name="volar">
+                                    <label class="label-especial" for="volar">Volar</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="superinteligencia" name="superinteligencia">
+                                    <label class="label-especial" for="superinteligencia">Superinteligencia</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="vistaDeRayoLaser" name="vistaDeRayoLaser" checked>
+                                    <label class="label-especial" for="vistaDeRayoLaser">Vista de rayo laser</label>
+                                </span>
+                                <span>
+                                    <input type="checkbox" id="billeteraGorda" name="billeteraGorda">
+                                    <label class="label-especial" for="deporte">billeteraGorda</label>
+                                </span>
+                                <span>______________________________________</span>
+                                <legend class="sub">Tipo de Personaje</legend>
+                                <span>
+                                    <input type="radio" name="heroe" id="heroe">
+                                    <label class="label-especial" for="heroe">Heroe / Heroina</label>
+                                </span>
+                                <span>
+                                    <input type="radio" name="villano" id="villano" >
+                                    <label class="label-especial" for="villano">Villana / Villano</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="boton">
+                        <span>Añadir</span>
+                    </button>
+                </form>
+            </div>
+        </form>
+
+        <footer>
+            <div class="foot">
+                <a>Todos los derechos reservados a FRONT END 1</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
